@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGameApi", "VideoGameApi.csproj", "{0898F4D3-ECD1-42E2-B338-795A85F1D882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0898F4D3-ECD1-42E2-B338-795A85F1D882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0898F4D3-ECD1-42E2-B338-795A85F1D882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0898F4D3-ECD1-42E2-B338-795A85F1D882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0898F4D3-ECD1-42E2-B338-795A85F1D882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF88A4B8-5A33-4AB5-96E3-F9446A84D2CF}
+	EndGlobalSection
+EndGlobal
