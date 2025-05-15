@@ -7,33 +7,6 @@ namespace VideoGameApi.Controllers
     [ApiController]
     public class VideoGameController : ControllerBase
     {
-        static private List<VideoGame> videoGames = new List<VideoGame>()
-        {
-            new VideoGame
-            {
-                Id = 1,
-                Title = "Test",
-                Platform = "PS5",
-                Developer = "Insomniac Games",
-                Publisher = "Sony",
-            },
-            new VideoGame
-            {
-                Id = 2,
-                Title = "Test",
-                Platform = "PS5",
-                Developer = "Insomniac Games",
-                Publisher = "Sony",
-            },
-            new VideoGame
-            {
-                Id = 3,
-                Title = "Test",
-                Platform = "PS5",
-                Developer = "Insomniac Games",
-                Publisher = "Sony",
-            }
-        };
 
         [HttpGet]
         public ActionResult<List<VideoGame>> GetVideoGames()
